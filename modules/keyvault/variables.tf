@@ -1,5 +1,6 @@
 variable "keyvault_name" {
     type = string
+    default = "myKeyVault"
 }
 
 variable "location" {
